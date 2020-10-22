@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dave's Pizza</title>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+	<style type="text/css">
+		html {
+			margin: 0;
+			padding: 0;
+			color: black;
+		}
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Quicksand;
+			font-weight: lighter;
+		}
+		.sidebar {
+			margin: 0px;
+			padding: 0px;
+			height: 100%;
+			width: 200px;
+			background: #333;
+			position: fixed;
+		}
+		.sidebar span {
+			position: fixed;
+			bottom: 20px;
+			left: 10px;
+			font-size: 16px;
+			color: #FFF;
+		}
+		.navbar {
+			list-style: none;
+		}
+		.link {
+			text-decoration: none;
+			color: #FFF;
+			font-size: 20px;
+		}
+		.main {
+			margin: 0px;
+			margin-left: 200px;
+			padding: 0px;
+			height: 100vh;
+			text-align: center;
+		}
+		.main p {
+			font-size: 36px;
+		}
+		.link2 {
+			color: #FF392E;
+			font-size: 36px;
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<div class="sidebar">
+		<ul class="navbar">
+			<li><a class="link" href="index.html">Home</a></li>
+			<li><a class="link" href="pizza.html">Products</a></li>
+			<li><a class="link" href="about.html">About Us</a></li>
+		</ul>
+		<span>
+			Located in 3rd Ave, NYC<br>
+			Call us at 013-456-7890.
+		</span>
+	</div>
+	<div class="main">
+		<img src="davespizza.png">
+		<p>
+			Welcome to Dave's pizza website.<br>
+			Please look at our products at the <a class="link2" href="pizza.html">Pizza section</a><br>
+			or find out our goals at <a class="link2" href="about.html">About Us</a> section
+		</p>
+		<video width="800" height="450" controls autoplay>
+			<source src="iklan.mp4" type="video/mp4">
+		</video>
+	</div>
+</body>
+</html>
